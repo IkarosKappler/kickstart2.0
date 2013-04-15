@@ -16,3 +16,4 @@
 config/rails_connector.yml
 config/custom_cloud.yml
 config/local/
+config/deploy.yml

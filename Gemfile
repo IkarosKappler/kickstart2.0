@@ -45,3 +45,18 @@ gem "infopark_cloud_connector"
 group :assets do
   gem "therubyracer", :require => "v8"
 end
+
+gem "active_attr"
+gem "simple_form"
+gem "haml-rails"
+gem "cells"
+group :assets do
+  gem "less-rails-bootstrap"
+end
+
+group :test, :development do
+  gem "pry-rails"
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem "rspec-rails"
+end
