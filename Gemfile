@@ -60,3 +60,7 @@ group :test, :development do
   gem "binding_of_caller"
   gem "rspec-rails"
 end
+
+group :production do
+  gem 'pg', '0.12.2'
+end

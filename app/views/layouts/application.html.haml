@@ -32,6 +32,8 @@
 
             = yield
 
+            = render_cell(:social_sharing, :show, cms_url(@obj))
+
           .span3
             = render_cell(:search, :form, @obj, @query)
 
